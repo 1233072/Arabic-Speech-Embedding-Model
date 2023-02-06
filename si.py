@@ -78,7 +78,7 @@ siamese_network = Model(
     inputs=[anchor_input, positive_input, negative_input], outputs=distances
 )
 
-siamese_network.load_weights('siamese_network_cnn4.h5')
+siamese_network.load_weights('siamese_network_Arabic_speech_embedding.h5')
 
 feature_embedding = siamese_network.get_layer('Embedding')
 
