@@ -1,6 +1,6 @@
 # Arabic-Speech-Embedding-Model
-A CNN-based triplet Siamese network is built and used for Arabic speech embedding to extract speech characteristics (i.e., features). The 
-embedding model was trained on 1 million samples, collected from different podcasts, of 198 Arabic speakers speaking different dialects. 
+A CNN-based triplet Siamese network is built and used to generate Arabic speech embeddings. The embedding model was trained on 1 million samples, 
+collected from different podcasts, of 198 Arabic speakers speaking different dialects. 
 
 siamese_network_Arabic_speech_embedding.h5 --> Embedding model
 
